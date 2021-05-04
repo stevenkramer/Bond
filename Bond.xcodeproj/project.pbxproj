@@ -30,12 +30,6 @@
 		6E8ECECD23A2F7D500856D90 /* MainBlockDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3895CCB223A25C61008FD491 /* MainBlockDisposable.swift */; };
 		6E8ECECE23A2F7D600856D90 /* MainBlockDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3895CCB223A25C61008FD491 /* MainBlockDisposable.swift */; };
 		75CA9E9220678E600011E5BB /* UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CA9E9120678E600011E5BB /* UISearchBar.swift */; };
-		824267CE225F7E4B001B1648 /* Differ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824267CC225F7E4B001B1648 /* Differ.framework */; };
-		824267CF225F7E4B001B1648 /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824267CD225F7E4B001B1648 /* ReactiveKit.framework */; };
-		824267D2225F7E5F001B1648 /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824267D0225F7E5F001B1648 /* ReactiveKit.framework */; };
-		824267D3225F7E5F001B1648 /* Differ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824267D1225F7E5F001B1648 /* Differ.framework */; };
-		824267D6225F7E68001B1648 /* Differ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824267D4225F7E68001B1648 /* Differ.framework */; };
-		824267D7225F7E68001B1648 /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824267D5225F7E68001B1648 /* ReactiveKit.framework */; };
 		901E85A1214A125A00F03A80 /* NSGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901E85A0214A125A00F03A80 /* NSGestureRecognizer.swift */; };
 		9025DCAB1F981693007B7689 /* Property+BidirectionalMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0220091F8BE898002F8380 /* Property+BidirectionalMap.swift */; };
 		9025DCB01F981694007B7689 /* Property+BidirectionalMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0220091F8BE898002F8380 /* Property+BidirectionalMap.swift */; };
@@ -196,6 +190,8 @@
 		90C04DC21E8F0B97000077C8 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C04D531E8F0B1D000077C8 /* UITextField.swift */; };
 		90C04DC31E8F0B97000077C8 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C04D541E8F0B1D000077C8 /* UITextView.swift */; };
 		90C04DC41E8F0B97000077C8 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C04D551E8F0B1D000077C8 /* UIView.swift */; };
+		B0E761192641737E005694DB /* Differ.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E761172641737E005694DB /* Differ.xcframework */; };
+		B0E7611A2641737E005694DB /* ReactiveKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E761182641737E005694DB /* ReactiveKit.xcframework */; };
 		E58FBB8D22187FD700339211 /* UIPickerView+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FBB8C22187FD700339211 /* UIPickerView+DataSource.swift */; };
 		E5BAF71221C68394008C78E2 /* UIPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BAF71121C68394008C78E2 /* UIPickerView.swift */; };
 		E5C968A9221926D70026D7D8 /* UIPickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C968A8221926D70026D7D8 /* UIPickerViewTests.swift */; };
@@ -247,8 +243,6 @@
 		EC930F47222B1EA7000D397C /* TreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC930F45222B1EA7000D397C /* TreeView.swift */; };
 		EC930F48222B1EA7000D397C /* TreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC930F45222B1EA7000D397C /* TreeView.swift */; };
 		EC9F9F552233C22000645634 /* TreeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F9F542233C22000645634 /* TreeViewTests.swift */; };
-		ECA1943C2261352C00C500AC /* Differ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 824267CC225F7E4B001B1648 /* Differ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		ECA1943E2261352C00C500AC /* ReactiveKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 824267CD225F7E4B001B1648 /* ReactiveKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ECAFB8D4200A7E3900EE0669 /* BNDInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFB8D3200A7E3900EE0669 /* BNDInvocation.swift */; };
 		ECAFB8D5200A7E3900EE0669 /* BNDInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFB8D3200A7E3900EE0669 /* BNDInvocation.swift */; };
 		ECAFB8D6200A7E3900EE0669 /* BNDInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFB8D3200A7E3900EE0669 /* BNDInvocation.swift */; };
@@ -345,8 +339,6 @@
 		ECFF44BC21692B5800B5EDB0 /* OutlineChangesetConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFF44BB21692B5800B5EDB0 /* OutlineChangesetConvertible.swift */; };
 		ECFF44BD21692B5800B5EDB0 /* OutlineChangesetConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFF44BB21692B5800B5EDB0 /* OutlineChangesetConvertible.swift */; };
 		ECFF44BE21692B5800B5EDB0 /* OutlineChangesetConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFF44BB21692B5800B5EDB0 /* OutlineChangesetConvertible.swift */; };
-		ECFF843322612E120095040B /* Differ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824267CC225F7E4B001B1648 /* Differ.framework */; };
-		ECFF843422612E120095040B /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824267CD225F7E4B001B1648 /* ReactiveKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -373,8 +365,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				ECA1943E2261352C00C500AC /* ReactiveKit.framework in Embed Frameworks */,
-				ECA1943C2261352C00C500AC /* Differ.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,12 +383,6 @@
 		16D30ED61D65D11900C2435D /* Bond.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bond.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3895CCB223A25C61008FD491 /* MainBlockDisposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainBlockDisposable.swift; sourceTree = "<group>"; };
 		75CA9E9120678E600011E5BB /* UISearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISearchBar.swift; sourceTree = "<group>"; };
-		824267CC225F7E4B001B1648 /* Differ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differ.framework; path = Carthage/Build/iOS/Differ.framework; sourceTree = "<group>"; };
-		824267CD225F7E4B001B1648 /* ReactiveKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveKit.framework; path = Carthage/Build/iOS/ReactiveKit.framework; sourceTree = "<group>"; };
-		824267D0225F7E5F001B1648 /* ReactiveKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveKit.framework; path = Carthage/Build/Mac/ReactiveKit.framework; sourceTree = "<group>"; };
-		824267D1225F7E5F001B1648 /* Differ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differ.framework; path = Carthage/Build/Mac/Differ.framework; sourceTree = "<group>"; };
-		824267D4225F7E68001B1648 /* Differ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differ.framework; path = Carthage/Build/tvOS/Differ.framework; sourceTree = "<group>"; };
-		824267D5225F7E68001B1648 /* ReactiveKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveKit.framework; path = Carthage/Build/tvOS/ReactiveKit.framework; sourceTree = "<group>"; };
 		901E85A0214A125A00F03A80 /* NSGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSGestureRecognizer.swift; sourceTree = "<group>"; };
 		90260292216B7F0D0055114E /* FlatDataSourceChangesetConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatDataSourceChangesetConvertible.swift; sourceTree = "<group>"; };
 		90677C10207EE44B00BC4505 /* TreeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeProtocol.swift; sourceTree = "<group>"; };
@@ -468,6 +452,8 @@
 		90C04DCF1E8F0BA7000077C8 /* UICollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewTests.swift; sourceTree = "<group>"; };
 		90C04DD01E8F0BA7000077C8 /* UIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitTests.swift; sourceTree = "<group>"; };
 		90C04DD11E8F0BA7000077C8 /* UITableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewTests.swift; sourceTree = "<group>"; };
+		B0E761172641737E005694DB /* Differ.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Differ.xcframework; path = Carthage/Build/Differ.xcframework; sourceTree = "<group>"; };
+		B0E761182641737E005694DB /* ReactiveKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ReactiveKit.xcframework; path = Carthage/Build/ReactiveKit.xcframework; sourceTree = "<group>"; };
 		E58FBB8C22187FD700339211 /* UIPickerView+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIPickerView+DataSource.swift"; sourceTree = "<group>"; };
 		E5BAF71121C68394008C78E2 /* UIPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPickerView.swift; sourceTree = "<group>"; };
 		E5C968A8221926D70026D7D8 /* UIPickerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPickerViewTests.swift; sourceTree = "<group>"; };
@@ -523,8 +509,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824267CF225F7E4B001B1648 /* ReactiveKit.framework in Frameworks */,
-				824267CE225F7E4B001B1648 /* Differ.framework in Frameworks */,
+				B0E761192641737E005694DB /* Differ.xcframework in Frameworks */,
+				B0E7611A2641737E005694DB /* ReactiveKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,8 +519,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				16210A461D3EC474004AEDF3 /* Bond.framework in Frameworks */,
-				ECFF843322612E120095040B /* Differ.framework in Frameworks */,
-				ECFF843422612E120095040B /* ReactiveKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,8 +534,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824267D3225F7E5F001B1648 /* Differ.framework in Frameworks */,
-				824267D2225F7E5F001B1648 /* ReactiveKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,8 +541,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824267D7225F7E68001B1648 /* ReactiveKit.framework in Frameworks */,
-				824267D6225F7E68001B1648 /* Differ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,38 +600,10 @@
 		824267C8225F7E1D001B1648 /* Carthage */ = {
 			isa = PBXGroup;
 			children = (
-				824267C9225F7E24001B1648 /* iOS */,
-				824267CA225F7E2B001B1648 /* macOS */,
-				824267CB225F7E34001B1648 /* tvOS */,
+				B0E761172641737E005694DB /* Differ.xcframework */,
+				B0E761182641737E005694DB /* ReactiveKit.xcframework */,
 			);
 			name = Carthage;
-			sourceTree = "<group>";
-		};
-		824267C9225F7E24001B1648 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				824267CC225F7E4B001B1648 /* Differ.framework */,
-				824267CD225F7E4B001B1648 /* ReactiveKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		824267CA225F7E2B001B1648 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				824267D1225F7E5F001B1648 /* Differ.framework */,
-				824267D0225F7E5F001B1648 /* ReactiveKit.framework */,
-			);
-			name = macOS;
-			sourceTree = "<group>";
-		};
-		824267CB225F7E34001B1648 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				824267D4225F7E68001B1648 /* Differ.framework */,
-				824267D5225F7E68001B1648 /* ReactiveKit.framework */,
-			);
-			name = tvOS;
 			sourceTree = "<group>";
 		};
 		904B87B61F6FFCE700FE0A24 /* Frameworks */ = {
